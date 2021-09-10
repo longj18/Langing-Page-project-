@@ -2,13 +2,15 @@ body{
     padding: 0;
     margin:0;
     text-align: center;
+    background-color: grey;
 }
 
 
 .container{
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 9%;
+    background-color: #fff;
 }
 
 .navbar{
@@ -44,7 +46,7 @@ a{
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
-    color: #F9FAF8
+    color: #F9FAF8;
     padding: 90px;
 }
 
@@ -88,7 +90,8 @@ h1{
 }
 
 .content{
-margin-bottom: 30px ;
+margin: 65px 0 ;
+background-color: #fff;
 }
 
 h2{
@@ -111,7 +114,7 @@ h2{
 .img{
     height: 150px;
     width: 150px;
-    border: 3px solid blue;
+    border: 3px solid #1f2937;
     border-radius: 5px;
     margin: 0;
 }
@@ -119,14 +122,17 @@ h2{
 .quote{
     background-color: #e5e7e8 ;
     font-size: 30px;
-    font-style: italic;
-    font-weight: lighter;
+    margin: 0;
+    padding: 0 40px;
+    
 }
 
 .inspiring{
     text-align: left;
     margin: 0 15px;
     padding-top: 25px;
+    font-weight: lighter;
+    font-style: italic;
 }
 .author{
     margin-left: 50%;
@@ -134,10 +140,46 @@ h2{
 }
 
 .signup{
+    display: flex;
     background-color: #3882f6;
     margin: 50px 75px;
-    padding: 10px 20px;
+    padding: 10px 150px;
     border-radius:10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* 
+h3{
+color: #fff;
+} */
+.callToAction{
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+h3{
+    margin: 0;
+}
+
+#signUp{
+    margin: 0;
+}
+
+.signUp-btn{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: 2px solid white;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .footer{
