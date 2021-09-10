@@ -1,4 +1,147 @@
+body{
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 10px;
+    margin: 0;
+}
+
+.navlogo{
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 30px;
+}
+
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding-right: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #F9FAF8
+    padding: 90px;
+}
+
+.heroBox{
+    display: flex;
+    flex-basis: 400px ;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+
+}
+
 h1{
-    color: green ;
-    border: 2px solid black;
+    font-size: 48;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+
+}
+.subtext{
+   
+}
+
+.push-it{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aussie{
+    width: 450px;
+    height: 300px;
+    text-align: center;
+}
+
+.content{
+margin-bottom: 30px ;
+}
+
+h2{
+    text-align: center;
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+    
+}
+
+.text{
+    text-align: center;
+    max-width: 200px;
+}
+
+
+.img{
+    height: 150px;
+    width: 150px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.quote{
+    background-color: #e5e7e8 ;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.inspiring{
+    text-align: left;
+    margin: 0 15px;
+    padding-top: 25px;
+}
+.author{
+    margin-left: 50%;
+   
+}
+
+.signup{
+    background-color: #3882f6;
+    margin: 50px 75px;
+    padding: 10px 20px;
+    border-radius:10px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7e8;
+    text-align: center;
 }
